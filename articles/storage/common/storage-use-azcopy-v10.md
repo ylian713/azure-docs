@@ -39,6 +39,10 @@ These files are compressed as a zip file (Windows and Mac) or a tar file (Linux)
 
 For convenience, consider adding the directory location of the AzCopy executable to your system path for ease of use. That way you can type `azcopy` from any directory on your system.
 
+```PowerShell
+cd <directory>
+```
+
 If you choose not to add the AzCopy directory to your path, you'll have to change directories to the location of your AzCopy executable and type `azcopy` or `.\azcopy` in Windows PowerShell command prompts.
 
 To see a list of commands, type `azcopy -h` and then press the ENTER key.
